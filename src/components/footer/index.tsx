@@ -7,9 +7,9 @@ import Button from "../share/button/button";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col pl-12 text-white">
+    <footer className="flex flex-col pl-12 text-white xl:py-20 xl:px-auto xl:items-center xl:justify-center">
       <div className="">
-        <div className="flex mt-9 mb-14 items-center gap-2">
+        <div className="flex pt-9 pb-14 items-center gap-2">
           <LogoIcon width={31} height={31} viewBox="0 0 31 31" />
           <BrandNameIcon width={39} height={16} viewBox="0 0 39 16" />
         </div>
@@ -38,31 +38,31 @@ export function Footer() {
               <FooterLink href="#!">Sign Up</FooterLink>
             </div>
           </FooterColumn>
-        </div>
 
-        <div className="flex flex-col gap-12">
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 xl:pl-36 xl:pt-1">
             <h3 className="pl-2 text-white text-[13px] font-normal">Email</h3>
             <div className="flex flex-col gap-2 pr">
               <Input
                 type="email"
-                placeholder="Hello@djectstudio.com"
+                placeholder="youremail@gmail.com"
                 // className="w-72 h-9"
               />
               <Button>Sign up</Button>
             </div>
           </div>
+        </div>
 
-          <div className="flex flex-col mb-12 gap-6">
-            <p className="text-sm text-gray-500">
-              Copyright &copy; 2024 Dject Studio
-            </p>
+        <div className="flex flex-col mb-12 gap-6 xl:flex-row xl:justify-between">
+          <p className="text-sm text-gray-500">Copyright &copy; 2024</p>
 
-            <div className="flex gap-6 text-sm text-gray-500">
-              <span>Privacy Policy</span>
-              <span className="w-px h-5 items-center bg-gray-500"></span>
-              <span>Terms of Service</span>
-            </div>
+          <div className="flex gap-6 text-sm ">
+            <FooterLink href="#!" className="text-gray-500  ">
+              Privacy Policy
+            </FooterLink>
+            <span className="w-px h-5 items-center bg-gray-500"></span>
+            <FooterLink href="#!" className="text-gray-500">
+              Terms of Service
+            </FooterLink>
           </div>
         </div>
       </div>
