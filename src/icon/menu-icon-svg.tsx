@@ -5,9 +5,9 @@ interface MenuIconProps {
   viewBox: string;
 }
 const MenuIcon: React.FC<MenuIconProps> = ({
-  width,
-  height,
-  viewBox,
+  width = 24,
+  height = 24,
+  viewBox = "0 0 24 24",
   ...props
 }) => (
   <svg

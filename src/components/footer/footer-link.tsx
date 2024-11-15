@@ -10,7 +10,7 @@ export default function FooterLink({ href, children }: FooterLinkProps) {
     <div>
       <Link
         href={href}
-        className="w-44 text-sm text-white hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-4"
+        className=" text-[13px] text-white hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-4 font-normal"
       >
         {children}
       </Link>

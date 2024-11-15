@@ -1,59 +1,67 @@
 import LogoIcon from "@/icon/logo-icon-svg";
+import BrandNameIcon from "@/icon/brand-name-svg";
 import FooterColumn from "./footer-column";
 import FooterLink from "./footer-link";
+import Input from "../share/input/input";
+import Button from "../share/button/button";
 
 export function Footer() {
   return (
-    <footer className=" text-white">
-      <div className="flex flex-col px-auto py-24">
-        <div className=" flex items-center gap-2 mb-14">
+    <footer className="flex flex-col pl-12 text-white">
+      <div className="">
+        <div className="flex mt-9 mb-14 items-center gap-2">
           <LogoIcon width={31} height={31} viewBox="0 0 31 31" />
-          <span className="text-white text-xl">Hurix</span>
+          <BrandNameIcon width={39} height={16} viewBox="0 0 39 16" />
         </div>
 
-        <div className=" flex gap-32">
-          <div className="flex gap-36">
-            <div className="flex flex-col gap-4">
-              <FooterColumn title="Features">
-                <div className="flex flex-col gap-2">
-                  <FooterLink href="#!">Home</FooterLink>
-                  <FooterLink href="#!">About</FooterLink>
-                  <FooterLink href="#!">Products</FooterLink>
-                </div>
-              </FooterColumn>
+        <div className="flex flex-wrap mb-12">
+          <FooterColumn title="Features">
+            <div className="flex flex-col gap-2">
+              <FooterLink href="#!">Home</FooterLink>
+              <FooterLink href="#!">About</FooterLink>
+              <FooterLink href="#!">Products</FooterLink>
             </div>
+          </FooterColumn>
 
-            <div className="flex flex-col gap-4">
-              <FooterColumn title="Solutions">
-                <div className="flex flex-col gap-2">
-                  <FooterLink href="#!">Pricing</FooterLink>
-                  <FooterLink href="#!">Blog</FooterLink>
-                  <FooterLink href="#!">Blog Articles</FooterLink>
-                </div>
-              </FooterColumn>
+          <FooterColumn title="Solutions">
+            <div className="flex flex-col gap-2">
+              <FooterLink href="#!">Pricing</FooterLink>
+              <FooterLink href="#!">Blog</FooterLink>
+              <FooterLink href="#!">Blog Articles</FooterLink>
             </div>
+          </FooterColumn>
 
-            <div className="flex flex-col gap-4">
-              <FooterColumn title="Company">
-                <div className="flex flex-col gap-2">
-                  <FooterLink href="#!">Contact</FooterLink>
-                  <FooterLink href="#!">Login</FooterLink>
-                  <FooterLink href="#!">Sign Up</FooterLink>
-                </div>
-              </FooterColumn>
+          <FooterColumn title="Company">
+            <div className="flex flex-col gap-2">
+              <FooterLink href="#!">Contact</FooterLink>
+              <FooterLink href="#!">Login</FooterLink>
+              <FooterLink href="#!">Sign Up</FooterLink>
             </div>
-          </div>
-          <div className="flex flex-col gap-4">
-            <h3 className="text-white text-lg font-bold">Email</h3>
-            <div className="flex flex-col gap-4">
-              <input
+          </FooterColumn>
+        </div>
+
+        <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-1">
+            <h3 className="pl-2 text-white text-[13px] font-normal">Email</h3>
+            <div className="flex flex-col gap-2 pr">
+              <Input
                 type="email"
                 placeholder="Hello@djectstudio.com"
-                className="w-full bg-[#171717] border border-gray-500 rounded-lg px-4 py-3 text-gray-600 placeholder-slate-700"
+                // className="w-72 h-9"
               />
-              <button className="w-full bg-gradient-to-r from-[#FCD5BF] to-[#FFA9CC] text-black rounded-lg py-3 font-medium hover:opacity-90 transition-opacity">
-                Sign up
-              </button>
+              <Button>Sign up</Button>
+            </div>
+          </div>
+
+          <div className="flex flex-col mb-12 gap-6">
+            <p className="text-sm text-gray-500">
+              Copyright &copy; 2024 Dject Studio
+            </p>
+
+            <div className="flex gap-6 text-sm text-gray-500">
+              <span>Privacy Policy</span>
+              <span className="w-px h-5 items-center bg-gray-500"></span>
+              <span>Terms of Service</span>
             </div>
           </div>
         </div>
