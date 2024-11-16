@@ -20,22 +20,27 @@ export default function Header() {
   };
 
   return (
-    <div className="mx-4 my-8 xl:mx-20">
-      <div className="w-full h-16 bg-[#0e0e0e] rounded-full">
-        <div className="px-6 py-4 flex items-center justify-between border-b border-[#141414] rounded-full">
+    <div className="mx-4 my-8 xl:mx-20 ">
+      {/* bg-[#0e0e0e]  */}
+      <div className="w-full h-fit py-4 px-6 bg-[#0e0e0e] rounded-full">
+        <div className=" flex items-center justify-between rounded-full">
           <LogoIcon width={31} height={32} viewBox={"0 0 31 32"} />
-          <div className="gap-4 hidden xl:flex ">
+          <div className="gap-4 hidden xl:flex shadow-[0px_-1px_1px_0px_rgba(255,255,255,0.03)_inset]">
             {headerItems.map((item) => (
-              <a href={item.path} key={item.name} className="hover:underline">
+              <a
+                href={item.path}
+                key={item.name}
+                className="link text-[14px] leading-[20px] font-normal"
+              >
                 {item.name}
               </a>
             ))}
           </div>
-          <Button className="hidden xl:inline-block">
+          <Button className="hidden xl:inline-block xl:w-[109px] xl:rounded-full xl:h-[38px]">
             <span>Contact Us</span>
           </Button>
 
-          <button onClick={toggleMenu} className="xl:hidden">
+          <button onClick={toggleMenu} className="xl:hidden ">
             <MenuIcon width={24} height={24} viewBox={"0 0 24 24"} />
           </button>
         </div>
