@@ -12,11 +12,13 @@ export default function Button({ className, children }: ButtonProps) {
         "w-[282px]",
         "h-[38px]",
         "flex items-center justify-center",
-        "bg-gradient-to-r from-[#FCD5BF] to-[#FFA9CC]",
+        "bg-pink-gradient",
         "text-black",
+        "text-[13px]",
         "rounded-lg",
         "py-3",
-        "font-medium",
+        "font-normal",
+        "leading-4",
         "hover:opacity-90 transition-opacity",
         className
       )}

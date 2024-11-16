@@ -24,9 +24,9 @@ export default function Header() {
       <div className="w-full h-16 bg-[#0e0e0e] rounded-full">
         <div className="px-6 py-4 flex items-center justify-between border-b border-[#141414] rounded-full">
           <LogoIcon width={31} height={32} viewBox={"0 0 31 32"} />
-          <div className="gap-4 hidden xl:flex">
+          <div className="gap-4 hidden xl:flex ">
             {headerItems.map((item) => (
-              <a href={item.path} key={item.name}>
+              <a href={item.path} key={item.name} className="hover:underline">
                 {item.name}
               </a>
             ))}

@@ -16,12 +16,18 @@ export default function Input({ type, placeholder }: InputProps) {
         "h-[38px]",
         "px-4",
         "py-3",
-        "bg-[#171717]",
+        "backdrop-blur-[3px]",
+        // "bg-[linear-gradient(97deg,rgba(255,255,255,0.00)_0%,rgba(255,255,255,0.03)_100%),rgba(255,255,255,0.01)]",
+        "bg-custom-input",
+        "bg-[rgba(255,255,255,0.01)]",
+        "stroke-[#FFFFFF/10]",
         "border",
-        "border-gray-500",
+        "border-white/10",
         "rounded-lg",
         "text-gray-600",
-        "placeholder:text-slate-700"
+        "leading-4",
+        "placeholder:text-[rgba(255,255,255,0.48)]",
+        "placeholder:leading-4"
       )}
     />
   );

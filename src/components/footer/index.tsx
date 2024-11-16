@@ -7,7 +7,7 @@ import Button from "../share/button/button";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col pl-12 text-white xl:py-20 xl:px-auto xl:items-center xl:justify-center">
+    <footer className="flex flex-col pl-12 text-white-text-gradient xl:py-20 xl:px-auto xl:items-center xl:justify-center">
       <div className="">
         <div className="flex pt-9 pb-14 items-center gap-2">
           <LogoIcon width={31} height={31} viewBox="0 0 31 31" />
@@ -40,12 +40,14 @@ export function Footer() {
           </FooterColumn>
 
           <div className="flex flex-col gap-1 xl:pl-36 xl:pt-1">
-            <h3 className="pl-2 text-white text-[13px] font-normal">Email</h3>
+            <h3 className="pl-2 text-white text-[13px] leading-5 font-normal">
+              Email
+            </h3>
             <div className="flex flex-col gap-2 pr">
               <Input
                 type="email"
                 placeholder="youremail@gmail.com"
-                // className="w-72 h-9"
+                className="w-72 h-9"
               />
               <Button>Sign up</Button>
             </div>
@@ -53,16 +55,12 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col mb-12 gap-6 xl:flex-row xl:justify-between">
-          <p className="text-sm text-gray-500">Copyright &copy; 2024</p>
+          <p className="text-[14px] leading-6">Copyright &copy; 2024</p>
 
-          <div className="flex gap-6 text-sm ">
-            <FooterLink href="#!" className="text-gray-500  ">
-              Privacy Policy
-            </FooterLink>
-            <span className="w-px h-5 items-center bg-gray-500"></span>
-            <FooterLink href="#!" className="text-gray-500">
-              Terms of Service
-            </FooterLink>
+          <div className="flex gap-6 text-[13px] leading-5">
+            <FooterLink href="#!">Privacy Policy</FooterLink>
+            <span className="w-px h-5 items-center bg-[rgba(255,255,255,0.12)]"></span>
+            <FooterLink href="#!">Terms of Service</FooterLink>
           </div>
         </div>
       </div>
