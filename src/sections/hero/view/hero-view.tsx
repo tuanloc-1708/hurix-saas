@@ -5,12 +5,12 @@ import Button from "@/components/ui/button/button";
 export default function HeroView() {
   return (
     <div>
-      <div className="flex flex-col pb-10 items-center justify-center gap-8">
+      <div className="flex flex-col pb-10 items-center justify-center gap-8 ">
         <div className="flex flex-col items-center justify-center">
           <AmazingLabel />
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-4">
+        <div className="flex flex-col items-center justify-center gap-4 ">
           <h1 className=" capitalize text-[3.5rem]/[120%] text-center tracking-[-0.56px] ">
             Manage your Data for Simplified Dashboard.
           </h1>
