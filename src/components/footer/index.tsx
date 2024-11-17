@@ -1,13 +1,13 @@
-import LogoIcon from "@/icon/logo-icon-svg";
-import BrandNameIcon from "@/icon/brand-name-svg";
+import LogoIcon from "@/assets/icons-svg/logo-icon-svg";
+import BrandNameIcon from "@/assets/icons-svg/brand-name-svg";
 import FooterColumn from "./footer-column";
 import FooterLink from "./footer-link";
-import Input from "../share/input/input";
-import Button from "../share/button/button";
+import Input from "../ui/input/input";
+import Button from "../ui/button/button";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col text-white-text-gradient xl:py-[92px] xl:px-auto xl:items-center xl:justify-center">
+    <footer className="flex flex-col px-5 text-white-text-gradient  xl:py-[92px] xl:px-auto xl:items-center xl:justify-center">
       <div className="">
         <div className="flex pt-9 pb-14 items-center gap-2">
           <LogoIcon width={31} height={31} viewBox="0 0 31 31" />

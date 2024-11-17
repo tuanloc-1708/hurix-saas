@@ -1,8 +1,8 @@
 "use client";
-import LogoIcon from "@/icon/logo-icon-svg";
-import MenuIcon from "@/icon/menu-icon-svg";
+import LogoIcon from "@/assets/icons-svg/logo-icon-svg";
+import MenuIcon from "@/assets/icons-svg/menu-icon-svg";
 import { useState } from "react";
-import Button from "../share/button/button";
+import Button from "../ui/button/button";
 
 const headerItems = [
   { name: "Home", path: "/#!" },

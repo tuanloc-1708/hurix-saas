@@ -1,6 +1,6 @@
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import "@/style/style.css";
+import "@/styles/style-bg-btn.css";
 interface FooterLinkProps {
   className?: string;
   href: string;

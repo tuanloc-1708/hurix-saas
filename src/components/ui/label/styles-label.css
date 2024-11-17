@@ -1,0 +1,24 @@
+.bg-label {
+  background: linear-gradient(
+    100deg,
+    rgba(254, 141, 148, 0.04) 0%,
+    rgba(159, 84, 255, 0.04) 100%
+  );
+}
+
+.text-pink-gradient {
+  background: var(
+    --Primary,
+    linear-gradient(
+      110deg,
+      #feece3 0%,
+      #fcd5bf 25%,
+      #feafae 50%,
+      #ffa4bd 75%,
+      #ffa9cc 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
