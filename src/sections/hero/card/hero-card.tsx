@@ -3,7 +3,7 @@ import ".././styles-hero.css";
 import Button from "@/components/ui/button/button";
 export default function HeroCard() {
   return (
-    <div className="relative flex flex-col items-center">
+    <div className="relative h-[600px] flex flex-col items-center">
       <div className="absolute w-[257px] h-[221px] p-[21px] flex flex-col bg-card gap-[22px] ">
         <span className=" text-gray-400 text-[8.803px]/[129%] font-semibold">
           YOUR CREDIT SCORE
@@ -27,7 +27,7 @@ export default function HeroCard() {
         </div>
       </div>
 
-      <div className="absolute top-[150px] w-[409px] h-[274px] p-[21px] flex flex-col gap-[22px] bg-card ">
+      <div className="absolute top-[193px]  w-[409px] h-[274px] p-[21px] flex flex-col gap-[22px] bg-card ">
         <div className="flex flex-col gap-[11.58px]">
           <span className=" text-gray-400 text-[11px]/[129%] font-medium tracking-[-0.385px]">
             Spendings
@@ -50,7 +50,7 @@ export default function HeroCard() {
         </div>
       </div>
 
-      <div className="absolute top-[450px] w-[185px] h-[61px]  flex items-center justify-around  bg-card">
+      <div className="absolute top-[327px] right-11  w-[185px] h-[61px]  flex items-center justify-around  bg-card">
         <div className="flex flex-col">
           <span className="text-[17px]/[117%] font-semibold tracking-[-0.355px]">
             $124,20

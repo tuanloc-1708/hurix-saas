@@ -9,8 +9,8 @@ export default function Button({ className, children }: ButtonProps) {
   return (
     <button
       className={cn(
-        "w-[282px]",
-        "h-[38px]",
+        // "w-[282px]",
+        // "h-[38px]",
         "flex items-center justify-center",
         "bg-pink-gradient",
         "text-black",
