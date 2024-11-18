@@ -49,7 +49,7 @@ export function Footer() {
                 placeholder="youremail@gmail.com"
                 className="w-72 h-9"
               />
-              <Button>Sign up</Button>
+              <Button className="rounded-lg">Sign up</Button>
             </div>
           </div>
         </div>

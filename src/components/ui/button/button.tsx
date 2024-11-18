@@ -15,7 +15,6 @@ export default function Button({ className, children }: ButtonProps) {
         "bg-pink-gradient",
         "text-black",
         "text-[13px]",
-        "rounded-lg",
         "py-3",
         "font-normal",
         "leading-4",

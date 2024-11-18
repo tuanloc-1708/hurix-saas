@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .container {
+    @apply w-full mx-auto px-[1rem] md:px-[2.5rem] lg:px-20 xl:px-0 xl:max-w-[1440px];
+  }
+}
 :root {
   --background: #040509;
   --foreground: #ededed;

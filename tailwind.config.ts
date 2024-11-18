@@ -7,10 +7,17 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  corePlugins: {
+    container: false,
+  },
   theme: {
     extend: {
+      container: {
+        center: false,
+      },
       screens: {
         xl: "900px",
+        "2xl": "1500px",
       },
       colors: {
         "white-text-gradient":

@@ -4,8 +4,8 @@ import Button from "@/components/ui/button/button";
 
 export default function HeroView() {
   return (
-    <div>
-      <div className="flex flex-col pb-10 items-center justify-center gap-8 ">
+    <div className="container mx-auto">
+      <div className="w-full flex flex-col xl:max-w-[604px] mx-auto pb-10 items-center justify-center gap-8 ">
         <div className="flex flex-col items-center justify-center">
           <AmazingLabel />
         </div>
