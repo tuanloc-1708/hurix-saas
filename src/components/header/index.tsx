@@ -20,9 +20,8 @@ export default function Header() {
   };
 
   return (
-    <div className="mx-4 my-8 xl:mx-20 ">
-      {/* bg-[#0e0e0e]  */}
-      <div className="w-full h-fit py-4 px-6 bg-[#0e0e0e] rounded-full">
+    <div className="container px-[111px] my-8 ">
+      <div className="max-w-[1217px] py-4 px-6 bg-[#0e0e0e] rounded-full">
         <div className=" flex items-center justify-between rounded-full">
           <LogoIcon width={31} height={32} viewBox={"0 0 31 32"} />
           <div className="gap-4 hidden xl:flex shadow-[0px_-1px_1px_0px_rgba(255,255,255,0.03)_inset]">

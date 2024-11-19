@@ -16,7 +16,7 @@ export default {
         center: false,
       },
       screens: {
-        xl: "900px",
+        xl: "768px",
         "2xl": "1500px",
       },
       colors: {
