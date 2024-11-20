@@ -1,7 +1,7 @@
 import { Footer } from "@/components/footer";
 import Header from "@/components/header";
 import ListBrand from "@/sections/brandname/list-brand";
-import DriveResult from "@/sections/drive-results/card/drive-result-card";
+import DriveResultView from "@/sections/drive-results/view/drive-result-view";
 import HeroView from "@/sections/hero/view/hero-view";
 
 export default function HomePage() {
@@ -10,7 +10,7 @@ export default function HomePage() {
       <Header />
       <HeroView />
       <ListBrand />
-      <DriveResult />
+      <DriveResultView />
       <Footer />
     </div>
   );
