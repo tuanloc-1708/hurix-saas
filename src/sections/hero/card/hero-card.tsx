@@ -5,7 +5,7 @@ export default function HeroCard() {
   return (
     <div className="container mx-auto px-[111px]  flex flex-col justify-center">
       <div className="relative max-w-[1200px] h-[400px] flex flex-col items-center">
-        <div className="absolute xl:left-[13%] w-[257px] h-[221px] p-[21px] flex flex-col bg-card gap-[22px] xl:w-[339px] xl:h-[283px]">
+        <div className="absolute xl:right-[55%] w-[257px] h-[221px] p-[21px] flex flex-col bg-card gap-[22px] xl:w-[339px] xl:h-[283px]">
           <span className=" text-gray-400 text-[8.803px]/[129%] font-semibold">
             YOUR CREDIT SCORE
           </span>
@@ -18,6 +18,7 @@ export default function HeroCard() {
             alt="Credit score"
             className="w-[177px] h-[94px] xl:w-[283px] xl:h-[150px]"
             sizes="(min-width: 900px) 283px, 177px"
+            // layout="responsive"
           />
 
           <div className="flex flex-col text-center xl:tracking-[-0.5px]">
@@ -30,7 +31,7 @@ export default function HeroCard() {
           </div>
         </div>
 
-        <div className="absolute top-[145px] xl:top-[7%] xl:left-[36%] w-[409px] h-[274px] p-[21px] flex flex-col gap-[22px] bg-card xl:w-[581px] xl:h-[367px] xl:p-[34px]">
+        <div className="absolute top-[35.9%] xl:top-[8%] xl:right-[4%] w-[409px] h-[274px] p-[21px] flex flex-col gap-[22px] bg-card xl:w-[581px] xl:h-[367px] xl:p-[34px]">
           <div className="flex flex-col gap-[11.58px]">
             <span className=" text-gray-400 text-[11px]/[129%] font-medium tracking-[-0.385px]">
               Spendings
@@ -48,6 +49,7 @@ export default function HeroCard() {
             className="w-[365px] h-[150px] xl:w-[565px] xl:[179px]"
             sizes="(min-width: 900px) 565px, 365px"
             unoptimized
+            // layout="responsive"
           />
 
           <div className="flex justify-between text-[11px]/[129%] tracking-[0.385px] font-medium xl:text-[17px]/[128%]">
@@ -56,7 +58,7 @@ export default function HeroCard() {
           </div>
         </div>
 
-        <div className="absolute top-[377px] xl:top-[81%] xl:right-[1%] right-[26px]  w-[185px] h-[61px]  flex items-center justify-around  bg-card xl:w-[295px] xl:h-[97px]">
+        <div className="absolute top-[97%] right-[-40%] xl:top-[80%] xl:right-[-5%]  w-[185px] h-[61px]  flex items-center justify-around  bg-card xl:w-[295px] xl:h-[97px]">
           <div className="flex flex-col">
             <span className="text-[17px]/[117%] font-semibold tracking-[-0.355px] xl:text-[27px]/[117%]">
               $124,20

@@ -10,7 +10,7 @@ export default function DriveResultView() {
   return (
     <div className="container flex flex-col gap-8">
       <div>
-        <p className="text-[40px]/[120%] tracking-[-0.4px] font-normal">
+        <p className="text-[40px]/[120%] tracking-[-2.4px] font-normal">
           Drive Results With Hurix for Marketers & Product
         </p>
       </div>

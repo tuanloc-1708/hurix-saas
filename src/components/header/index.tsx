@@ -20,7 +20,7 @@ export default function Header() {
   };
 
   return (
-    <div className="container px-[111px] my-8 ">
+    <div className="container my-8 ">
       <div className="max-w-[1217px] py-4 px-6 bg-[#0e0e0e] rounded-full">
         <div className=" flex items-center justify-between rounded-full">
           <LogoIcon width={31} height={32} viewBox={"0 0 31 32"} />

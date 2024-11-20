@@ -16,6 +16,8 @@ export default {
         center: false,
       },
       screens: {
+        sm: "375px",
+        md: "440px",
         xl: "768px",
         "2xl": "1500px",
       },
