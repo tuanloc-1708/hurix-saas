@@ -20,6 +20,7 @@ export default {
         md: "440px",
         xl: "768px",
         "2xl": "1024px",
+        "3xl": "1440px",
       },
       colors: {
         "white-text-gradient":
