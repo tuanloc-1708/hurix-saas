@@ -8,20 +8,20 @@ export const keyEffect = [
 
 export default function DriveResultView() {
   return (
-    <div className="container flex flex-col gap-8">
-      <div>
-        <p className="text-[40px]/[120%] tracking-[-2.4px] font-normal">
+    <div className="container md:px-[111px] xl:[222px] flex flex-col gap-8 justify-center">
+      <div className="">
+        <p className="xl:max-w-[400px] text-[40px]/[120%] tracking-[-2.4px] font-normal">
           Drive Results With Hurix for Marketers & Product
         </p>
       </div>
 
-      <div className="flex flex-col gap-6">
-        <p className="text-[14px]/[171%] font-normal">
+      <div className="flex flex-col xl:flex-row gap-6">
+        <p className="xl:flex-1 text-[14px]/[171%] font-normal">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at
           est ut odio cursus efficitur. Cras pharetra consectetur mi, nec
           eleifend justo pharetra vel. Praesent interdum lacinia varius.
         </p>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col xl:flex-1 gap-3">
           <span className="text-[14px]/[145%] font-medium">
             Keys to Efficient Web Development:
           </span>

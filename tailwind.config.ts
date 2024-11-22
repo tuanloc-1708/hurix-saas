@@ -19,7 +19,7 @@ export default {
         sm: "375px",
         md: "440px",
         xl: "768px",
-        "2xl": "1500px",
+        "2xl": "1024px",
       },
       colors: {
         "white-text-gradient":
