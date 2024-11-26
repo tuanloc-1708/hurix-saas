@@ -1,0 +1,13 @@
+.pink-gradient {
+  background: var(
+    --Primary,
+    linear-gradient(
+      110deg,
+      #feece3 0%,
+      #fcd5bf 25%,
+      #feafae 50%,
+      #ffa4bd 75%,
+      #ffa9cc 100%
+    )
+  );
+}

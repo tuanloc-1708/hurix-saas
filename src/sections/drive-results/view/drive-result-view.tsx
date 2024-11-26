@@ -9,8 +9,8 @@ export const keyEffect = [
 export default function DriveResultView() {
   return (
     <div className="container md:px-[50px] xl:[222px] flex flex-col gap-8 justify-center">
-      <div className="flex flex-col items-center justify-center">
-        <div className="left-0">
+      <div className="grid justify-items-stretch items-center justify-center gap-3">
+        <div className="justify-self-start">
           <p className=" xl:max-w-[400px] text-[40px]/[120%] tracking-[-2.4px] font-normal">
             Drive Results With Hurix for Marketers & Product
           </p>

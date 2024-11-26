@@ -3,7 +3,7 @@ import ".././styles-hero.css";
 import Button from "@/components/ui/button/button";
 export default function HeroCard() {
   return (
-    <div className="container mx-auto px-[111px]  flex flex-col justify-center">
+    <div className="container  px-[111px]  flex flex-col justify-center">
       <div className="relative max-w-[1200px] h-[400px] flex flex-col items-center">
         <div className="absolute xl:right-[55%] w-[257px] h-[221px] p-[21px] flex flex-col bg-card gap-[22px] xl:w-[339px] xl:h-[283px]">
           <span className=" text-gray-400 text-[8.803px]/[129%] font-semibold">
@@ -31,7 +31,7 @@ export default function HeroCard() {
           </div>
         </div>
 
-        <div className="absolute top-[35.9%] xl:top-[8%] xl:right-[4%] w-[409px] h-[274px] p-[21px] flex flex-col gap-[22px] bg-card xl:w-[581px] xl:h-[367px] xl:p-[34px]">
+        <div className="absolute scale-75 top-[35.9%] xl:top-[8%] right-[-100%] xl:right-[4%] w-[409px] h-[274px] p-[21px] flex flex-col gap-[22px] bg-card xl:w-[581px] xl:h-[367px] xl:p-[34px]">
           <div className="flex flex-col gap-[11.58px]">
             <span className=" text-gray-400 text-[11px]/[129%] font-medium tracking-[-0.385px]">
               Spendings
