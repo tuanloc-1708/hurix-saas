@@ -1,5 +1,20 @@
+import GlobalIcon from "@/assets/icons-svg/golbal-svg";
 import CustomerFbackCard from "../card/customer-fback-card";
 import AmazingLabe from "@/components/ui/label/amazing-label";
+import StarIcon from "@/assets/icons-svg/star-icon-svg";
+
+export const content = [
+  {
+    icon: <GlobalIcon width={24} height={24} viewBox={"0 0 24 24"} />,
+    title: "Faster deployment",
+    description: "Lorem ipsum dolor sit amet, consectetur.",
+  },
+  {
+    icon: <StarIcon width={24} height={24} viewBox={"0 0 24 24"} />,
+    title: "Faster deployment",
+    description: "Lorem ipsum dolor sit amet, consectetur.",
+  },
+];
 
 export default function CustomerFbackView() {
   return (
@@ -22,7 +37,23 @@ export default function CustomerFbackView() {
             </p>
           </div>
 
-          <div>adasdadas</div>
+          <div className="flex flex-col gap-4">
+            {content.map((item, index) => (
+              <div key={index} className="flex flex-row gap-4 ">
+                <div className="flex items-center justify-center bg-card w-[48px] h-[48px] rounded-[24px] ">
+                  {item.icon}
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-[14px]/[145%] font-medium">
+                    {item.title}
+                  </span>
+                  <span className="text-[14px]/[171%] font-normal">
+                    {item.description}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
