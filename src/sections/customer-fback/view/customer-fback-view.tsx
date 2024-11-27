@@ -9,16 +9,21 @@ export default function CustomerFbackView() {
       </span>
       <div className="w-full flex flex-col">
         <CustomerFbackCard />
-        <AmazingLabe />
-        <span className="text-[30px]/[126%] tracking-[-1.4px] font-normal">
-          Streamlined collaboration in easiest ways
-        </span>
-        <p className="text-[14px]/[171%] font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at
-          est ut odio cursus efficitur.
-        </p>
 
-        <div></div>
+        <div className="flex flex-col gap-8">
+          <div>
+            <AmazingLabe />
+            <span className="text-[30px]/[126%] tracking-[-1.4px] font-normal">
+              Streamlined collaboration in easiest ways
+            </span>
+            <p className="text-[14px]/[171%] font-normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum at est ut odio cursus efficitur.
+            </p>
+          </div>
+
+          <div>adasdadas</div>
+        </div>
       </div>
     </div>
   );
