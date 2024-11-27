@@ -2,6 +2,7 @@ import GlobalIcon from "@/assets/icons-svg/golbal-svg";
 import CustomerFbackCard from "../card/customer-fback-card";
 import AmazingLabe from "@/components/ui/label/amazing-label";
 import StarIcon from "@/assets/icons-svg/star-icon-svg";
+import UsageSpendingCard from "../card/usage-speding-card";
 
 export const content = [
   {
@@ -25,7 +26,7 @@ export default function CustomerFbackView() {
       <div className="w-full flex flex-col">
         <CustomerFbackCard />
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 mb-[71px]">
           <div>
             <AmazingLabe />
             <span className="text-[30px]/[126%] tracking-[-1.4px] font-normal">
@@ -55,6 +56,7 @@ export default function CustomerFbackView() {
             ))}
           </div>
         </div>
+        <UsageSpendingCard />
       </div>
     </div>
   );
