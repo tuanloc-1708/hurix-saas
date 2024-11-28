@@ -31,15 +31,15 @@ export const content2 = [
 ];
 export default function CustomerFbackView() {
   return (
-    <div className="container px-4 flex flex-col items-center justify-center">
+    <div className="container px-4 flex flex-col items-center justify-center gap-[34px]">
       <span className="text-[40px]/[123%] text-center font-normal tracking-[-0.9px]">
         Customer Feedback Data Intelligence Leader
       </span>
-      <div className="w-full flex flex-col">
+      <div className="w-full flex flex-col gap-[34px]">
         <CustomerFbackCard />
 
         <div className="flex flex-col gap-8 mb-[71px]">
-          <div>
+          <div className="flex flex-col gap-4">
             <AmazingLabe />
             <span className="text-[30px]/[126%] tracking-[-1.4px] font-normal">
               Streamlined collaboration in easiest ways
@@ -71,24 +71,29 @@ export default function CustomerFbackView() {
         <UsageSpendingCard />
       </div>
 
-      <div>
-        <AmazingLabe />
-        <div>
-          <span>Workflow without any Streamlining</span>
-          <p>
+      <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-[11px]">
+          <AmazingLabe />
+          <span className=" text-[34px]/[126%] tracking-[-2px] font-normal">
+            Workflow without any Streamlining
+          </span>
+          <p className="text-[14px]/[171%] font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             at est ut odio cursus efficitur.
           </p>
         </div>
 
-        <p>
+        <p className="text-[14px]/[171%] font-normal">
           Cras pharetra consectetur mi, nec eleifend justo pharetra vel.
           Praesent interdum lacinia varius.
         </p>
 
-        <div>
+        <div className="flex gap-4">
           {content2.map((item, index) => (
-            <div key={index} className="">
+            <div
+              key={index}
+              className="flex text-[14px]/[171%] font-normal gap-2"
+            >
               <div className="">{item.icon}</div>
               <div className="">
                 <span className="">{item.title}</span>
@@ -97,7 +102,9 @@ export default function CustomerFbackView() {
           ))}
         </div>
 
-        <Button className="px-4 py-[9px] rounded-[54px]">Get in Touch</Button>
+        <Button className="px-4 py-[9px] max-w-[117px] rounded-[54px]">
+          Get in Touch
+        </Button>
       </div>
     </div>
   );
