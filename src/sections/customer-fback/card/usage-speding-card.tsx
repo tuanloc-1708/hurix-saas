@@ -20,11 +20,19 @@ export default function UsageSpendingCard() {
         />
       </div>
 
-      <div className="p-5 bg-card">
+      <div className="flex flex-col p-5 bg-card gap-[11px]">
         <span>Usage</span>
 
-        <div>
-          <div></div>
+        <div className="flex flex-col gap-1">
+          <div className="relative w-full h-[11px] rounded-[26px] bg-[rgba(255,255,255,0.17)]">
+            <div className="absolute top-0 left-0 w-[70%] h-full bg-pink-gradient rounded-[26px]" />
+          </div>
+          {/* <div
+            className="w-full h-[11px] 
+          before:bg-pink-gradient 
+          bg-[rgba(255,255,255,0.17)]
+           rounded-[26px]"
+          /> */}
           <span className="text-[12px]/[150%] font-normal tracking-[-0.5] text-gray-400">
             80 GB out of 100 GB used
           </span>

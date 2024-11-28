@@ -3,6 +3,8 @@ import CustomerFbackCard from "../card/customer-fback-card";
 import AmazingLabe from "@/components/ui/label/amazing-label";
 import StarIcon from "@/assets/icons-svg/star-icon-svg";
 import UsageSpendingCard from "../card/usage-speding-card";
+import CheckVerifiedIcon from "@/assets/icons-svg/check-verifile-icon-svg";
+import Button from "@/components/ui/button/button";
 
 export const content = [
   {
@@ -17,6 +19,16 @@ export const content = [
   },
 ];
 
+export const content2 = [
+  {
+    icon: <CheckVerifiedIcon width={24} height={24} viewBox={"0 0 24 24"} />,
+    title: "Free migration",
+  },
+  {
+    icon: <CheckVerifiedIcon width={24} height={24} viewBox={"0 0 24 24"} />,
+    title: "Simplified onboarding",
+  },
+];
 export default function CustomerFbackView() {
   return (
     <div className="container px-4 flex flex-col items-center justify-center">
@@ -57,6 +69,35 @@ export default function CustomerFbackView() {
           </div>
         </div>
         <UsageSpendingCard />
+      </div>
+
+      <div>
+        <AmazingLabe />
+        <div>
+          <span>Workflow without any Streamlining</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            at est ut odio cursus efficitur.
+          </p>
+        </div>
+
+        <p>
+          Cras pharetra consectetur mi, nec eleifend justo pharetra vel.
+          Praesent interdum lacinia varius.
+        </p>
+
+        <div>
+          {content2.map((item, index) => (
+            <div key={index} className="">
+              <div className="">{item.icon}</div>
+              <div className="">
+                <span className="">{item.title}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <Button className="px-4 py-[9px] rounded-[54px]">Get in Touch</Button>
       </div>
     </div>
   );
