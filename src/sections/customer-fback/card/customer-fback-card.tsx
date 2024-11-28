@@ -17,8 +17,8 @@ const graph = [
 
 export default function CustomerFbackCard() {
   return (
-    <div className="container p-4">
-      <div className="p-[28px] bg-card flex flex-col gap-9">
+    <div className="mx-auto 3xl:mx-0">
+      <div className="p-[28px] w-[350px] bg-card flex flex-col  gap-9">
         <div className="flex flex-col gap-6">
           <span className="text-[14px]/[129%] tracking-[-0.5px] font-semibold">
             Your Assets
