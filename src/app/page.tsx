@@ -1,9 +1,12 @@
 import { Footer } from "@/components/footer";
 import Header from "@/components/header";
 import ListBrand from "@/sections/brandname/list-brand";
+import DownloadViewCard from "@/sections/business-purpose/view/download-view-card";
+import ConnectApps from "@/sections/connect-app/connect-app";
 import CustomerFbackView from "@/sections/customer-fback/view/customer-fback-view";
 import DriveResultView from "@/sections/drive-results/view/drive-result-view";
 import HeroView from "@/sections/hero/view/hero-view";
+import OurWordsView from "@/sections/our-words/view/our-words-view";
 
 export default function HomePage() {
   return (
@@ -13,6 +16,9 @@ export default function HomePage() {
       <ListBrand />
       <DriveResultView />
       <CustomerFbackView />
+      <ConnectApps />
+      <OurWordsView />
+      <DownloadViewCard />
       <Footer />
     </div>
   );
