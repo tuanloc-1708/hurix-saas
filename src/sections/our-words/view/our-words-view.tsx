@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function OurWordsView() {
   return (
-    <div className="container flex flex-col items-center justify-center gap-[110px]">
-      <div className="flex flex-col max-w-[450px] justify-center items-center">
+    <div className="container flex flex-col  justify-center items-center">
+      <div className="flex flex-col pb-[110px] max-w-[450px] justify-center items-center">
         <Image
           src="/mark-png/box-chat.png"
           width={80}
@@ -17,7 +17,7 @@ export default function OurWordsView() {
         </span>
       </div>
 
-      <div className="flex">
+      <div>
         <OurWordsCard />
       </div>
     </div>
