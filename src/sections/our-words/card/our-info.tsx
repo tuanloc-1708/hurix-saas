@@ -36,26 +36,35 @@ export const content = [
 export default function OurWordsCard() {
   return (
     <>
-      {content.map((item, index) => (
-        <div key={index}>
-          <div className="p-[21px] bg-card flex flex-col gap-5">
-            <div className="p-2 bg-card flex flex-row gap-4">
-              <Image
-                src="/logo-webp/avartar.webp"
-                width={48}
-                height={48}
-                alt="chart-spending-graph"
-                className="min-w-[48px] h-[48px]"
-              />
-              <div className="flex flex-col">
-                <span>{item.name}</span>
-                <span className="">{item.info}</span>
+      {content.map((item, index) => {
+        const infoWords = item.info.split(" ");
+        const lastWord = infoWords.pop();
+        const restOfInfoText = infoWords.join(" ");
+
+        return (
+          <div key={index} className=" flex flex-row gap-6">
+            <div className="max-w-[384px] p-[21px] bg-card flex flex-col gap-5">
+              <div className="p-2 bg-card flex flex-row gap-4">
+                <Image
+                  src="/logo-webp/avartar.webp"
+                  width={48}
+                  height={48}
+                  alt="chart-spending-graph"
+                  className="min-w-[48px] h-[48px]"
+                />
+                <div className="flex flex-col">
+                  <span>{item.name}</span>
+                  <span>
+                    {restOfInfoText}{" "}
+                    <span className="text-pink-gradient">{lastWord}</span>
+                  </span>
+                </div>
               </div>
+              &quot;{item.describe}&quot;
             </div>
-            &quot;{item.describe}&quot;
           </div>
-        </div>
-      ))}
+        );
+      })}
     </>
   );
 }
