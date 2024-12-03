@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function OurWordsView() {
   return (
-    <div className="container flex flex-col  justify-center items-center">
+    <div className="container flex flex-col justify-center items-center overflow-hidden">
       <div className="flex flex-col pb-[110px] max-w-[450px] justify-center items-center">
         <Image
           src="/mark-png/box-chat.png"

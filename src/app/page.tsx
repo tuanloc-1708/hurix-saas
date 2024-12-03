@@ -1,5 +1,6 @@
 import { Footer } from "@/components/footer";
 import Header from "@/components/header";
+import BlogArticleView from "@/sections/blogs-articles/view/blog-article-view";
 import ListBrand from "@/sections/brandname/list-brand";
 import DownloadViewCard from "@/sections/business-purpose/view/download-view-card";
 import ConnectApps from "@/sections/connect-app/connect-app";
@@ -18,7 +19,8 @@ export default function HomePage() {
       <CustomerFbackView />
       <ConnectApps />
       <OurWordsView />
-      <DownloadViewCard />
+      {/* <DownloadViewCard /> */}
+      <BlogArticleView />
       <Footer />
     </div>
   );

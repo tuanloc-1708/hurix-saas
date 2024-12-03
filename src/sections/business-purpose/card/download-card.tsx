@@ -14,12 +14,12 @@ export default function DownloadCard() {
         <div className="p-2 bg-card">Hello@gmail.com</div>
         <Button className="w-[342px] rounded-[9px]">Download Now!</Button>
         <div className="flex flex-col gap-[15px]">
-          <div className="flex">
+          <div className="flex gap-[11px]">
             <GlobalIcon width={24} height={24} viewBox={"0 0 24 24"} />
             <span>Integrate Algorithms</span>
           </div>
 
-          <div className="flex">
+          <div className="flex gap-[11px]">
             <StarIcon width={24} height={24} viewBox={"0 0 24 24"} />
             <span>Comment Collection</span>
           </div>
