@@ -1,7 +1,9 @@
 .black-gradient {
-  background: radial-gradient(
-    608.37% 165.67% at 50% -480%,
-    rgba(4, 5, 9, 0) 86%,
-    #040509 94%
+  background-image: linear-gradient(
+    90deg,
+    #030014 10%,
+    rgba(3, 0, 20, 0) 30%,
+    rgba(3, 0, 20, 0) 70%,
+    #030014 90%
   );
 }
