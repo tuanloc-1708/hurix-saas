@@ -83,7 +83,7 @@ export default function OurWordsCard() {
         <div className="w-[500px] h-[660px] bg-white items-center relative z-10" />
       </div>
 
-      <div className="grid grid-rows-2 grid-flow-col gap-6 overflow-hidden relative z-0 -top-[610px]">
+      <div className="grid grid-rows-2 grid-flow-col gap-6 overflow-hidden relative z-0 ">
         {content.map((item) => (
           <>
             <div

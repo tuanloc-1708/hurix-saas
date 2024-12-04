@@ -3,10 +3,16 @@ import DownloadCard from "../card/download-card";
 export default function DownloadViewCard() {
   return (
     <>
-      <div className="flex">
-        <DownloadCard />
-        <DownloadCard />
-        <DownloadCard />
+      <div className="relative">
+        <div className="">
+          <DownloadCard />
+        </div>
+        <div className="">
+          <DownloadCard />
+        </div>
+        <div className="relative">
+          <DownloadCard />
+        </div>
       </div>
     </>
   );

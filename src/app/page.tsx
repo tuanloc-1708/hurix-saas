@@ -19,7 +19,7 @@ export default function HomePage() {
       <CustomerFbackView />
       <ConnectApps />
       <OurWordsView />
-      {/* <DownloadViewCard /> */}
+      <DownloadViewCard />
       <BlogArticleView />
       <Footer />
     </div>
