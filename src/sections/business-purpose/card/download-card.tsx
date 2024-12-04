@@ -1,10 +1,11 @@
 import GlobalIcon from "@/assets/icons-svg/golbal-svg";
 import StarIcon from "@/assets/icons-svg/star-icon-svg";
 import Button from "@/components/ui/button/button";
+import "../../business-purpose/style-card-download.css";
 
 export default function DownloadCard() {
   return (
-    <div className="flex flex-col gap-6 text-[14px]/[172%] max-w-[384px] px-5  py-[30px] bg-card">
+    <div className="flex flex-col gap-6 text-[14.5px]/[172%] text-gray-400 w-[384px] px-5 font-normal py-[30px] card-download">
       <div>
         It’s intuitive, functional, easy-to-setup and presents content in an
         interactive and interesting.
@@ -12,7 +13,7 @@ export default function DownloadCard() {
 
       <div className="flex flex-col gap-[15px]">
         <div className="p-2 bg-card text-[14px]/[145%]">Hello@gmail.com</div>
-        <Button className="w-[342px] rounded-[9px] text-[14px]/[140%] font-medium">
+        <Button className="w-full rounded-[9px] text-[14px]/[140%] font-medium">
           Download Now!
         </Button>
         <div className="flex flex-col gap-[15px]">
