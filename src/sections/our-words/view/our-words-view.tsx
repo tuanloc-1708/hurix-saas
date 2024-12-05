@@ -9,7 +9,7 @@ export default function OurWordsView() {
           src="/mark-png/box-chat.png"
           width={80}
           height={84}
-          alt="chart-spending-graph"
+          alt="chart-spend ing-graph"
           className="min-w-[80px] h-[84px]"
         />
         <span className="text-[40px]/[131%] text-center">

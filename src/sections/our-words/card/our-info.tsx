@@ -78,9 +78,9 @@ export const content = [
 
 export default function OurWordsCard() {
   return (
-    <div className="w-screen relative overflow-hidden ">
+    <div className="max-w-[1536px] relative overflow-hidden ">
       <div className="black-gradient absolute top-0 left-0 right-0 bottom-0 z-10" />
-      <div className="grid grid-rows-2 grid-flow-col gap-6 relative z-0 w-[1600px] ml-[-192px] md:ml-0">
+      <div className="grid grid-rows-2 grid-flow-col gap-6 relative z-0 w-[1600px] ml-[-192px] md:ml-0 3xl:ml-[-0.6%]">
         {content.map((item) => (
           <>
             <div
